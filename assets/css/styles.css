@@ -74,10 +74,6 @@ h1, h2, h3, h4, h5 {
   margin: 15px;
 }
 
-.header h1 {
-
-}
-
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #333333
@@ -149,6 +145,7 @@ To center a fixed-width div, I set the left and right margins to auto
 .content {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   padding: 10px;
   width: 940px;
   background-color: #e1f4f3
@@ -167,7 +164,7 @@ To center a fixed-width div, I set the left and right margins to auto
   width: 960px;
 }
 
-.flex-container {
+.flex-container2 {
   display: flex;
   flex-wrap: left;
   margin: 0;
@@ -191,4 +188,18 @@ To center a fixed-width div, I set the left and right margins to auto
   position: fixed;
   bottom: 40px;
   width: 100%;
+}
+
+.header-hr {
+  margin-top: 0;
+  border-style: solid;
+  border-width: 4px;
+  color: #333333;
+  position: fixed;
+  top: 66px;
+  width: 100%;
+}
+
+.dark-heading {
+  color: #333333;
 }
