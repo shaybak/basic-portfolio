@@ -70,8 +70,12 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-  color: #333333;
+  color: #e1f4f3;
   margin: 15px;
+}
+
+.header h1 {
+
 }
 
 p {
@@ -101,9 +105,42 @@ ul {
 To center a fixed-width div, I set the left and right margins to auto
 *************/
 .header {
+  background-color: #706c61;
+}
+
+/**************
+Navigation bar
+**************/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: 480px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #706c61;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 /************
@@ -113,7 +150,7 @@ To center a fixed-width div, I set the left and right margins to auto
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  width: 960px;
+  width: 940px;
   background-color: #e1f4f3
 }
 
@@ -122,9 +159,18 @@ To center a fixed-width div, I set the left and right margins to auto
   padding: 18px;
 }
 
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: left;
+  margin: 0;
 }
 
 .footer {
