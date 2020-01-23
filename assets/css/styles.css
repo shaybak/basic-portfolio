@@ -1,43 +1,120 @@
 /******************************
+
+SWATCHES:
+
+Group 1
 #192965
 #f0efef
 #bbcfff
 #faafff
+
+Group 2
+#333333
+#ffffff
+#e1f4f3
+#706c61
+
+Group 3
+#272343
+#ffffff
+#e3f6f5
+#bae8e8
+
 *******************************/
+
+
+/**************
+Navigation bar
+**************/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #706c61;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 body {
   /* background-image: url("../images/greek-vase.png");
   /* shorthand for "/Users/shaydabakhshi/Desktop/Basic-Portfolio/assets/images/greek-vase.png" */
-  background-color: #f0efef;
+  background-color: #ffffff;
   margin: 0;
 }
 
+
+
 h1, h2, h3, h4, h5 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-  color: #192965;
+  color: #333333;
   margin: 15px;
 }
 
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #192965
+  color: #333333
 }
 
 hr {
   border-style: solid;
 }
 
+
+li a {
+  display: block;
+  width: 60px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333333
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/************
+To center a fixed-width div, I set the left and right margins to auto
+*************/
 .header {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
+/************
+To center a fixed-width div, I set the left and right margins to auto
+*************/
 .content {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   width: 960px;
-  background-color: #bbcfff
+  background-color: #e1f4f3
 }
 
 .headshot {
@@ -54,7 +131,7 @@ hr {
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  background-color: #faafff;
+  background-color: #706c61;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -64,7 +141,7 @@ hr {
   margin: 0;
   border-style: solid;
   border-width: 10px;
-  color: #192965;
+  color: #333333;
   position: fixed;
   bottom: 40px;
   width: 100%;
