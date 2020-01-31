@@ -2,23 +2,10 @@
 
 SWATCHES:
 
-Group 1
-#192965
-#f0efef
-#bbcfff
-#faafff
-
-Group 2
 #333333
 #ffffff
 #e1f4f3
 #706c61
-
-Group 3
-#272343
-#ffffff
-#e3f6f5
-#bae8e8
 
 *******************************/
 
@@ -26,7 +13,7 @@ Group 3
 
 
 body {
-  background-image: url("../images/flowerchild.png");
+  background-image: url("../images/spiration-light.png");
   background-color: #ffffff;
   padding: 0;
   margin: 0;
@@ -34,19 +21,21 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-  color: #e1f4f3;
+  color: #333333;
   padding: 15px;
   margin: 0;
 }
 
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #192965;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 hr {
   border-style: solid;
-  border-color: #192965;
+  border-color: #333333;
 }
 
 
@@ -67,9 +56,10 @@ ul {
 To center a fixed-width div, I set the left and right margins to auto
 *************/
 .header {
-  background-color: #faafff;
+  background-color: #e1f4f3;
+  text-align: center;
   float: left;
-  width: 460px;
+  width: 480px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,16 +71,13 @@ Navigation bar
 
 .topnav {
   background-color: #ffffff;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
   width: 480px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
-  color: #192965;
+  color: #333333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -99,13 +86,13 @@ Navigation bar
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #bbcfff;
-  color: black;
+  background-color: #e1f4f3;
+  color: #333333;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #e1f4f3;
   color: white;
 }
 
@@ -118,8 +105,7 @@ To center a fixed-width div, I set the left and right margins to auto
   margin-top: 50px;
   padding: 10px;
   width: 940px;
-  background-color: #bbcfff;
-  border-radius: 5%
+  background-color: #e1f4f3;
 }
 
 .about-text {
@@ -156,7 +142,7 @@ To center a fixed-width div, I set the left and right margins to auto
   margin-right: 0;
   padding-top: 20px;
   text-align: center;
-  background-color: #faafff;
+  background-color: #e1f4f3;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -164,14 +150,14 @@ To center a fixed-width div, I set the left and right margins to auto
 }
 
 .content-hr {
-
+  width: 910px;
 }
 
 .footer-hr {
   margin: 0;
   border-style: solid;
   border-width: 10px;
-  color: #faafff;
+  color: ##333333;
   position: fixed;
   bottom: 60px;
   width: 100%;
@@ -181,12 +167,43 @@ To center a fixed-width div, I set the left and right margins to auto
   margin-top: 0;
   border-style: solid;
   border-width: 1px;
-  color: #faafff;
+  color: #333333;
   position: fixed;
   top: 66px;
   width: 100%;
 }
 
-.dark-heading {
-  color: #192965;
+form {
+  margin: 20px 0 10px 15px;
+}
+
+input {
+  width: 860px;
+  padding: 12px 20px;
+
+}
+
+.message {
+  margin-left: 15px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.form-text {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+  margin-left: 15px;
+  width: 900px;
+}
+
+button {
+  background-color: #333333;
+  margin: 15px;
+}
+
+.button-text {
+  font-size: 20px;
+  color: #e1f4f3;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
