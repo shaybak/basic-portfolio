@@ -200,10 +200,54 @@ textarea {
 button {
   background-color: #333333;
   margin: 15px;
-}
-
-.button-text {
-  font-size: 20px;
+  width: 100px;
+  height:50px;
   color: #e1f4f3;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 20%;
+}
+
+button:hover {
+  background-color: #706c61;
+}
+
+.portfolio-img {
+  margin: 20px 20px 20px 15px;
+  width: 30%;
+}
+
+/* .portfolio-contents {
+  position: relative;
+} */
+
+/* Container holding the image and the text */
+.portfolio-container {
+  position: relative;
+  display: inline;
+}
+
+.text-block-left {
+  position: absolute;
+  background-color: teal;
+  z-index: 1;
+  margin-left: 15px;
+  margin-top: -110px;
+  width: 282px;
+  text-align: center;
+}
+
+.text-block-right {
+  position: absolute;
+  background-color: teal;
+  z-index: 1;
+  margin-left: 336px;
+  margin-top: -110px;
+  width: 282px;
+  text-align: center;
+}
+
+.p-overlay {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #e1f4f3;
 }
